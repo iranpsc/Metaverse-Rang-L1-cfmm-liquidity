@@ -7,7 +7,7 @@ import "remix_tests.sol";
 
 // This import is required to use custom transaction context
 // Although it may fail compilation in 'Solidity Compiler' plugin
-// But it will work fine in 'Solidity Unit Testing' plugin
+// But it will work fine in 'Solidity Unit Testing' plugin.
 import "remix_accounts.sol";
 import "../metarang/goverment-quadratic.sol";
 
