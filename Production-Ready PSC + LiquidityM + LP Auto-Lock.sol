@@ -78,7 +78,7 @@ contract MyToken is ERC20, Ownable {
             emit TeamVestingCreated(teamWallets[i], address(vesting), perTeamMember);
         }
 
-        // Investor Step Vesting
+        // Investor Step Vesting.
         uint256 investorAmount = TOTAL_SUPPLY - publicAmount - teamTotalAmount;
         investorVesting = new InvestorStepVesting(
             investorWallet,
