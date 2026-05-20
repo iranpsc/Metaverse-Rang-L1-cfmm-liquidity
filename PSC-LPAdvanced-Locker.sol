@@ -4,7 +4,7 @@ pragma solidity ^0.8.27;
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 
-/// @title PSC LP Advanced Locker
+/// @title PSC LP Advanced Locker.
 /// @notice Advanced LP locking contract with multi-lock, partial unlock, and public info
 contract PSCLPAdvancedLocker is Ownable {
     using SafeERC20 for IERC20;
