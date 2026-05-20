@@ -49,7 +49,7 @@ interface IUniswapV2Router02 {
 // =====================================================
 
 /// @title PSC Liquidity Manager
-/// @notice Creates Uniswap pair and adds initial liquidity safely
+/// @notice Creates Uniswap pair and adds initial liquidity safely.
 contract PSCLiquidityManager is Ownable {
     using SafeERC20 for IERC20;
 
