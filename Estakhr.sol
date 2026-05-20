@@ -14,7 +14,7 @@ import "../metarang/estakhr.sol";
 // File name has to end with '_test.sol', this file can contain more than one testSuite contracts
 contract testSuite {
 
-    /// 'beforeAll' runs before all other tests
+    /// 'beforeAll' runs before all other test
     /// More special functions are: 'beforeEach', 'beforeAll', 'afterEach' & 'afterAll'
     function beforeAll() public {
         // <instantiate contract>
